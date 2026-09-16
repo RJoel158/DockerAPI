@@ -10,12 +10,7 @@ yarn-error.log*
 Thumbs.db
 .vscode/
 .idea/
-.env
-.env.prod
-.env.dev
-.env.example
 .gitignore
-*.md
 *.sh
 *.exe
 *.bat
