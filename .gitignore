@@ -4,11 +4,27 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
 # Archivos del sistema y editores
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+.env
+.env.prod
+.env.dev
+.env.example
+.gitignore
+*.md
+*.sh
+*.exe
+*.bat
+*.cmd
+*.ps1
+*.psm1
+*.pem
+*.crt
+*.key
 
 # Datos temporales de Docker / logs
 *.log

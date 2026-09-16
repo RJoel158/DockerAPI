@@ -77,7 +77,7 @@ docker compose logs postgres
 
 ---
 
-## 🧪 Pruebas de Persistencia de Datos
+## Pruebas de Persistencia de Datos
 
 1. **Detener servicios manteniendo los datos:**
    ```bash
