@@ -11,7 +11,7 @@ const PORT = process.env.API_PORT || 3000;
 const pool = new Pool({
   user: process.env.POSTGRES_USER || 'appuser',
   host: process.env.POSTGRES_HOST || 'postgres', // Nombre del servicio en docker-compose
-  database: process.env.POSTGRES_DB || 'appdb',
+  database: process.env.POSTGRES_DB || 'appdbGrupo4',
   password: process.env.POSTGRES_PASSWORD || 'secret123',
   port: parseInt(process.env.POSTGRES_PORT || '5432', 10),
 });
