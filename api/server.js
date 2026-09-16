@@ -9,11 +9,11 @@ const PORT = process.env.API_PORT || 3000;
 
 // Configuración de la conexión a PostgreSQL con variables de entorno
 const pool = new Pool({
-  user: process.env.POSTGRES_USER || 'appuser',
-  host: process.env.POSTGRES_HOST || 'postgres', // Nombre del servicio en docker-compose
-  database: process.env.POSTGRES_DB || 'appdbGrupo4',
-  password: process.env.POSTGRES_PASSWORD || 'secret123',
-  port: parseInt(process.env.POSTGRES_PORT || '5432', 10),
+  user: process.env.POSTGRES_USER,
+  host: process.env.POSTGRES_HOST, // Nombre del servicio en docker-compose
+  database: process.env.POSTGRES_DB,
+  password: process.env.POSTGRES_PASSWORD,
+  port: parseInt(process.env.POSTGRES_PORT, 10),
 });
 
 // Función para inicializar la tabla users de forma automática
